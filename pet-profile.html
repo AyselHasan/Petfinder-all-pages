@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Profile</title>
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap/css/bootstrap-grid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap/css/bootstrap-grid.min.css"
+    />
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/scss/style.css" />
+    <link rel="stylesheet" href="./assets/scss/reset.css" />
+  </head>
+  <body>
+    <!----------------------------- Navbar --------------------------------->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                class="navbar-logo cursor-pointer"
+                src="./assets/img/homepage/Petfinder_logo.png"
+                alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li
+                  class="nav-item font-regular nav-hover fw-bolder font-size-13"
+                >
+                  FIND A PET<span
+                    aria-hidden="true"
+                    data-icon="&#xe905;"
+                    class="down-arrow"
+                  ></span>
+                </li>
+                <li
+                  class="
+                    nav-item
+                    font-regular
+                    nav-hover
+                    fw-bolder
+                    font-size-13
+                    margin-left-15
+                  "
+                >
+                  BREEDS<span
+                    aria-hidden="true"
+                    data-icon="&#xe905;"
+                    class="down-arrow"
+                  ></span>
+                </li>
+                <li
+                  class="
+                    nav-item
+                    margin-left-15
+                    font-regular
+                    nav-hover
+                    fw-bolder
+                    font-size-13
+                  "
+                >
+                  RECOURCES<span
+                    aria-hidden="true"
+                    data-icon="&#xe905;"
+                    class="down-arrow"
+                  ></span>
+                </li>
+              </ul>
+              <span class="navbar-text d-flex font-regular">
+                <span
+                  aria-hidden="true"
+                  data-icon="&#xe986;"
+                  class="down-arrow margin-left-2r font-size-20 font-color-gray"
+                ></span>
+                <span
+                  aria-hidden="true"
+                  data-icon="&#xe9da;"
+                  class="down-arrow margin-left-2r font-size-20 font-color-gray"
+                ></span>
+                <ul class="list-unstyled d-flex">
+                  <li
+                    class="
+                      margin-left-15
+                      font-size-22
+                      nav-hover
+                      fw-bolder
+                      font-color-gray
+                      margin-left-2r
+                    "
+                  >
+                    Sign up
+                  </li>
+                  <li
+                    class="
+                      margin-left-15
+                      font-size-22
+                      nav-hover
+                      fw-bolder
+                      font-color-gray
+                    "
+                  >
+                    Login
+                  </li>
+                </ul>
+              </span>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!------------------------- End of  Navbar ------------------------------>
+
+    <main>
+      <!------------------------- Slider -------------------------->
+      <div class="pet-img-gallery mb-3">
+        <div class="carousel carousel-bgblack">
+          <div class="carousel-cell">
+            <img src="./assets/img/petprofile/1.jfif" />
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/img/petprofile/2.jfif" />
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/img/petprofile/1.jfif" />
+          </div>
+          <div class="carousel-cell">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg"
+              alt="cat nose"
+            />
+          </div>
+        </div>
+      </div>
+      <!-------------------End of Slider -------------------------->
+
+      <!----------------------------------------------------------->
+      <div class="bg-details mt-5">
+        <!--------------------Profile details------------------------>
+        <div class="profile-details">
+          <div class="p-4">
+            <p class="font-size-35 font-color-gray fw-bolder">Name</p>
+            <p class="fw-bolder mt-5">
+              <span class="adopt-it cursor-pointer"> Breed </span>· Location
+            </p>
+            <hr class="mt-4" />
+            <p>Age · Gender · Size</p>
+            <hr class="mt-4" />
+            <p class="font-size-30 fw-bolder font-color-gray">About</p>
+            <ul class="list-unstyled">
+              <li class="fw-bolder font-color-gray mt-4">HOUSE-TRAINED</li>
+              <li class="mt-2">Yes</li>
+              <li class="fw-bolder font-color-gray mt-4">HEALTH</li>
+              <li class="mt-2">
+                Vaccinations up to date, spayed / neutered, special needs.
+                Weekly brushing to avoid his fur matting.
+              </li>
+              <li class="fw-bolder font-color-gray mt-4">
+                GOOD IN A HOME WITH
+              </li>
+              <li class="mt-2">Children.</li>
+            </ul>
+            <hr class="mt-5" />
+            <p class="f-italic font-color-gray mt-5">
+              <svg
+                class="title-svg mr-3"
+                id="icon-alert"
+                viewBox="0 0 25.01 30.66"
+              >
+                <title>icon-alert</title>
+                <path
+                  d="M23.91,20.6a1.21,1.21,0,0,1-.5-.5s-1.3-7.2-1.5-9.9a6.86,6.86,0,0,0-4.3-6.1c-.5-.2-1-.3-1.5-.5a3.6,3.6,0,1,0-7.2,0c-.4.2-.9.3-1.4.5h-.1A6.7,6.7,0,0,0,3,10.2c-.2,2.8-1.3,10-1.3,10,0,.2-.1.3-.3.4A1.59,1.59,0,0,0,0,21.9a1.55,1.55,0,0,0,1.3,1.7h22.2A1.47,1.47,0,0,0,25,22.1,1.5,1.5,0,0,0,23.91,20.6Zm-7.4,4.9h-8a1.09,1.09,0,0,0-1.1.9.6.6,0,0,0,.1.4,5.2,5.2,0,0,0,6.3,3.7,5.31,5.31,0,0,0,3.7-3.7,1,1,0,0,0-.6-1.3Z"
+                ></path>
+              </svg>
+              Petfinder recommends that you should always take reasonable
+              security steps before making online payments.
+            </p>
+            <hr class="mt-5" />
+            <p class="fw-bolder font-color-gray font-size-35 mt-5">
+              Meet Little Squeak
+            </p>
+            <p class="font-color-gray mt-5 mb-5">
+              My name may be Little Squeak but I'm a big boy! If you're looking
+              for a big, sweet, snuggly companion, then I'm the perfect cat for
+              you! The humans here are still gathering more information about
+              how I would do in a home with other cats or a dog. But they are
+              sure I love people of all sizes! I will require a home that is
+              okay with keeping up with grooming me, as I have fur that mats
+              quickly. It wouldn't be a difficult task because I love to be
+              brushed!
+            </p>
+            <hr class="mt-5" />
+            <p class="fw-bolder font-color-gray font-size-35 mt-5">Contact</p>
+            <div class="row mt-4">
+              <div class="col-lg-6">
+                <p>
+                  <svg
+                    class="title-svg mr-5"
+                    id="icon-email"
+                    viewBox="0 0 29.78 26.78"
+                  >
+                    <title>icon-email</title>
+                    <path
+                      d="M1.44,6.84,13.78,17.66a1.75,1.75,0,0,0,2.22,0L28.34,6.84A3.41,3.41,0,0,0,29.78,4.3V4.23A4.26,4.26,0,0,0,25.53,0H4.26A4.26,4.26,0,0,0,0,4.23V4.3A3.56,3.56,0,0,0,1.44,6.84Z"
+                    ></path>
+                    <path
+                      d="M28.18,11.68l-9.84,8.63a5.31,5.31,0,0,1-6.9,0L1.6,11.68c-.88-.77-1.6-.45-1.6.72V22.55a4.26,4.26,0,0,0,4.26,4.24H25.53a4.26,4.26,0,0,0,4.25-4.24V12.4C29.78,11.23,29.06,10.91,28.18,11.68Z"
+                    ></path>
+                  </svg>
+                  <a href=""> Dallyshope27@gmail.com</a>
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <p>
+                  <svg
+                    class="title-svg"
+                    id="icon-phone"
+                    viewBox="0 0 25.9 26.34"
+                  >
+                    <title>icon-phone</title>
+                    <path
+                      d="M24.63,24.44a3.93,3.93,0,0,0,.44-5.31c-.66-.81-1.45-1.54-2.18-2.29A4.73,4.73,0,0,0,19.27,15,5,5,0,0,0,16.56,16a4,4,0,0,0-1,1.06c-.25.4-.43.82-1,.66-.81-.23-1.67-1.53-2.25-2.1s-1-1-1.44-1.49c-.76-.81-1.54-1.6-2.27-2.44-.3-.35-.58-.74-.25-1.19s.77-.38,1.09-.6a3.42,3.42,0,0,0,1-1.18c1.7-3.06-.65-6.45-3.31-8a4.16,4.16,0,0,0-5.48.73A8.68,8.68,0,0,0,.09,7.86c.42,3,2.37,4.85,4.29,6.91C5.6,16.08,6.8,17.42,8.05,18.7,9.67,20.36,11.33,22,13,23.61,15.88,26.48,21.43,27.59,24.63,24.44Z"
+                    ></path>
+                  </svg>
+                  <a href=""> (518) 410-9201</a>
+                </p>
+              </div>
+            </div>
+            <hr class="mt-5" />
+            <p class="fw-bolder font-color-gray font-size-35 mt-5">
+              Aladdin's FAQs
+            </p>
+            <ul class="list-unstyled font-size-15 mb-4">
+              <li class="fw-bolder mt-5">
+                What is Dally's Hope 4 Paws Rescue Inc’s adoption process?
+              </li>
+              <li class="mt-3">
+                Every adoption organization has their own process, but typically
+                they’ll invite you to fill out a formal application based on
+                your information. Then they’ll guide you through next steps.
+              </li>
+              <li class="fw-bolder mt-5">What is Aladdin’s adoption fee?</li>
+              <li class="mt-3">
+                The adoption organization hasn’t provided fee details on this
+                pet yet, but you can reach out to them directly for more info.
+              </li>
+              <li class="fw-bolder mt-5">Is Aladdin good with kids?</li>
+              <li class="mt-3">
+                Aladdin is good with kids under the age of 5 and kids over the
+                age of 5.
+              </li>
+              <li class="fw-bolder mt-5">
+                Is Aladdin good with other animals?
+              </li>
+              <li class="mt-3">Aladdin is good with other dogs and cats.</li>
+            </ul>
+          </div>
+        </div>
+        <!---------------End of Profile details---------------------->
+      </div>
+
+      <!----------------Adoption articles-------------------------->
+      <section
+        class="
+          adoption-articles
+          resp-d-none
+          d-flex
+          justify-content-center
+          align-items-center
+        "
+      >
+        <div class="container res-margin-3 res-margin-bottom">
+          <div class="row d-flex justify-content-around">
+            <div class="col-lg-6 art-card res-margin-1">
+              <div class="card-content">
+                <div
+                  class="card-img"
+                  style="
+                    background-image: url(./assets/img/homepage/article-card-1.jpg);
+                  "
+                ></div>
+                <div
+                  class="
+                    card-mini-photo
+                    m-photo-position m-photo-position-2 m-photo-position-3
+                  "
+                >
+                  <img src="./assets/img/homepage/article-card-1.jpg" alt="" />
+                </div>
+
+                <div
+                  class="
+                    card-inner
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    text-center
+                  "
+                >
+                  <span class="font-regular">
+                    <span class="font-size-20 fw-bolder">
+                      Cat Adoption Articles</span
+                    ><br /><br />
+                    Helpful insights on what to expect.</span
+                  >
+                </div>
+                <div
+                  class="
+                    card-read-more
+                    text-center
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                >
+                  <p class="font-size-20 fw-bold font-regular">Read More</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 art-card res-margin-1">
+              <div class="card-content">
+                <div
+                  class="card-img"
+                  style="
+                    background-image: url(./assets/img/homepage/article-card-2.jpg);
+                  "
+                ></div>
+                <div class="card-mini-photo m-photo-position">
+                  <img src="./assets/img/homepage/article-card-2.jpg" alt="" />
+                </div>
+                <div
+                  class="
+                    card-inner
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                    text-center
+                  "
+                >
+                  <span class="font-regular">
+                    <span class="font-size-20 fw-bolder">
+                      Dog Adoption Articles</span
+                    ><br /><br />
+                    Learn more about caring your new dog.
+                  </span>
+                </div>
+                <div
+                  class="
+                    card-read-more
+                    text-center
+                    d-flex
+                    align-items-center
+                    justify-content-center
+                  "
+                >
+                  <p class="font-size-20 fw-bold font-regular">Read More</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------------End of Adoption articles-------------------->
+
+      <!----------------------------------------------------------->
+
+      <!------------------------Pet Cards-------------------------->
+      <section class="pet-cards d-flex justify-content-center mb-5">
+        <div class="container res-margin-3">
+          <p
+            class="
+              text-center
+              font-size-45
+              mt-5
+              mb-5
+              vio-font-color
+              font-regular
+            "
+          >
+            Pets Available for Adoption
+          </p>
+          <div class="container">
+            <div class="row d-flex justify-content-between">
+              <div class="col-lg-3 col-md-3">
+                <div class="pet-card">
+                  <div
+                    class="
+                      card-fav-icon
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <span
+                      aria-hidden="true"
+                      data-icon="&#xe906;"
+                      class="down-arrow vio-font-color"
+                    ></span>
+                  </div>
+                  <div class="pet-card-img">
+                    <img src="./assets/img/homepage/3.jpg" alt="" />
+                  </div>
+                  <div
+                    class="
+                      pet-card-name
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    Pumpkin
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <div class="pet-card">
+                  <div
+                    class="
+                      card-fav-icon
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <span
+                      aria-hidden="true"
+                      data-icon="&#xe906;"
+                      class="down-arrow vio-font-color"
+                    ></span>
+                  </div>
+                  <div class="pet-card-img">
+                    <img src="./assets/img/homepage/3.jpg" alt="" />
+                  </div>
+                  <div
+                    class="
+                      pet-card-name
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    Pumpkin
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <div class="pet-card">
+                  <div
+                    class="
+                      card-fav-icon
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <span
+                      aria-hidden="true"
+                      data-icon="&#xe906;"
+                      class="down-arrow vio-font-color"
+                    ></span>
+                  </div>
+                  <div class="pet-card-img">
+                    <img src="./assets/img/homepage/3.jpg" alt="" />
+                  </div>
+                  <div
+                    class="
+                      pet-card-name
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    Pumpkin
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <div class="pet-card card-5">
+                  <div
+                    class="
+                      pet-card-img pet-card-paw
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                      d-inline
+                    "
+                  >
+                    <svg
+                      class="svg-size"
+                      id="icon-strokedPaw"
+                      viewBox="0 0 42.26 40.83"
+                    >
+                      <title>icon-paw</title>
+                      <path
+                        d="M10.42 17.57c0-3.51-2.34-6.36-5.21-6.36S0 14.06 0 17.57s2.34 6.35 5.21 6.35 5.21-2.85 5.21-6.35zm-5.21 4.57c-1.9 0-3.44-2.05-3.44-4.58s1.54-4.58 3.44-4.58 3.42 2.06 3.42 4.59-1.52 4.57-3.42 4.57zM42.26 17.56c0-3.5-2.34-6.35-5.21-6.35s-5.21 2.85-5.21 6.36a.89.89 0 1 0 1.77 0c0-2.52 1.54-4.58 3.44-4.58s3.44 2.05 3.44 4.58c0 2.52-1.54 4.57-3.44 4.57a.89.89 0 0 0 0 1.78c2.87 0 5.21-2.85 5.21-6.36zM27.63 12.72c2.87 0 5.21-2.85 5.21-6.36S30.49 0 27.63 0s-5.21 2.85-5.21 6.36 2.32 6.36 5.21 6.36zm0-10.94c1.9 0 3.44 2.05 3.44 4.58s-1.56 4.58-3.44 4.58-3.44-2.05-3.44-4.58 1.53-4.58 3.44-4.58zM14.63 12.72c2.87 0 5.21-2.85 5.21-6.36S17.52 0 14.63 0 9.42 2.85 9.42 6.36s2.35 6.36 5.21 6.36zm0-10.94c1.9 0 3.44 2.05 3.44 4.58s-1.53 4.58-3.44 4.58-3.44-2.05-3.44-4.58 1.56-4.58 3.44-4.58zM33.63 28.65l-5.5-9.63c-1.82-3.17-4.31-4.92-7-4.92s-5.18 1.75-7 4.92l-5.5 9.62a11.12 11.12 0 0 0-.9 2 7.54 7.54 0 0 0-.5 2.69.61.61 0 0 0 0 .08 7.5 7.5 0 0 0 7.1 7.41h.3a7.35 7.35 0 0 0 2.91-.59c.66-.26 1.76-.76 2.9-1.3l.41.17a18.59 18.59 0 0 0 7.07 1.71 7.51 7.51 0 0 0 7.14-7.39 9 9 0 0 0-.49-2.72 11.18 11.18 0 0 0-.94-2.05zm-5.72 10.39a15.1 15.1 0 0 1-5.28-1.14l.34-.17 1-.46a.86.86 0 0 0 .18-.14l1-.51.94-.48a.89.89 0 0 0-.8-1.59l-1 .48c-1.55.79-4.14 2.12-5.23 2.57l-.1.07c-.83.39-1.6.73-2.08.92a5.2 5.2 0 0 1-2.4.45h-.09a5.72 5.72 0 0 1-5.42-5.62.35.35 0 0 0 0-.07 5.82 5.82 0 0 1 .4-2.09 9.27 9.27 0 0 1 .77-1.7l5.49-9.65c1.49-2.6 3.43-4 5.47-4s4 1.43 5.47 4l5.53 9.63a9.47 9.47 0 0 1 .77 1.7 7.21 7.21 0 0 1 .42 2.18 5.71 5.71 0 0 1-5.38 5.62z"
+                      ></path>
+                    </svg>
+                    <!-- <p class="text-white d-inline">
+                      173498 more pets available on PetFinder
+                    </p> -->
+                  </div>
+                  <div
+                    class="
+                      pet-card-name
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                      pet-card-meet
+                      text-white
+                    "
+                  >
+                    <p>Meet Them</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Responsible cards -->
+      <div class="rv-cards-resp mb-5 res-margin-3">
+        <p
+          class="text-center font-size-45 mt-5 mb-5 vio-font-color font-regular"
+        >
+          Pets Available for Adoption
+        </p>
+        <div
+          class="carousel bg-transparent"
+          data-flickity='{ "wrapAround": true }'
+        >
+          <div class="carousel-cell d-flex justify-content-center">
+            <div class="pet-card shadow">
+              <div
+                class="
+                  card-fav-icon
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                <span
+                  aria-hidden="true"
+                  data-icon="&#xe906;"
+                  class="down-arrow vio-font-color"
+                ></span>
+              </div>
+              <div class="pet-card-img">
+                <img src="./assets/img/homepage/3.jpg" alt="" />
+              </div>
+              <div
+                class="
+                  pet-card-name
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                Pumpkin
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell d-flex justify-content-center">
+            <div class="pet-card shadow">
+              <div
+                class="
+                  card-fav-icon
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                <span
+                  aria-hidden="true"
+                  data-icon="&#xe906;"
+                  class="down-arrow vio-font-color"
+                ></span>
+              </div>
+              <div class="pet-card-img">
+                <img src="./assets/img/homepage/3.jpg" alt="" />
+              </div>
+              <div
+                class="
+                  pet-card-name
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                Pumpkin
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell d-flex justify-content-center">
+            <div class="pet-card shadow">
+              <div
+                class="
+                  card-fav-icon
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                <span
+                  aria-hidden="true"
+                  data-icon="&#xe906;"
+                  class="down-arrow vio-font-color"
+                ></span>
+              </div>
+              <div class="pet-card-img">
+                <img src="./assets/img/homepage/3.jpg" alt="" />
+              </div>
+              <div
+                class="
+                  pet-card-name
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                Pumpkin
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell d-flex justify-content-center">
+            <div class="pet-card shadow">
+              <div
+                class="
+                  card-fav-icon
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                <span
+                  aria-hidden="true"
+                  data-icon="&#xe906;"
+                  class="down-arrow vio-font-color"
+                ></span>
+              </div>
+              <div class="pet-card-img">
+                <img src="./assets/img/homepage/3.jpg" alt="" />
+              </div>
+              <div
+                class="
+                  pet-card-name
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                Pumpkin
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell d-flex justify-content-center">
+            <div class="pet-card shadow">
+              <div
+                class="
+                  card-fav-icon
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                <span
+                  aria-hidden="true"
+                  data-icon="&#xe906;"
+                  class="down-arrow vio-font-color"
+                ></span>
+              </div>
+              <div class="pet-card-img">
+                <img src="./assets/img/homepage/3.jpg" alt="" />
+              </div>
+              <div
+                class="
+                  pet-card-name
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                Pumpkin
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Responsible cards -->
+      <!------------------End of Pet Cards ------------------------>
+
+      <!----------------------------------------------------------->
+
+      <!---------------------Profile bar--------------------------->
+
+      <section class="profile-bar-section resp-d-none">
+        <div class="profile-bar d-flex">
+          <div class="container">
+            <div class="row mt-3">
+              <div class="col-lg-1">
+                <div class="pic-container">
+                  <img src="./assets/img/petprofile/1.jfif" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="bar-details mt-2">
+                  <ul class="list-unstyled font-size-13">
+                    <li class="vio-font-color fw-bolder">Name</li>
+                    <li class="font-color-gray fw-bolder mt-2">
+                      Breed · Age · Gender
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div class="profile-bar-icons d-flex justify-content-around">
+                  <button class="bar-icon">
+                    <svg id="icon-favorite_outline" viewBox="0 0 35.07 29.87">
+                      <title>icon-favorite_outline</title>
+                      <path
+                        d="M31,4.09a8.31,8.31,0,0,0-11.75-.31l-.31.31a8.8,8.8,0,0,0-1.43,2,8.8,8.8,0,0,0-1.43-2A8.31,8.31,0,0,0,4.31,3.78L4,4.09A9.09,9.09,0,0,0,4,16.61l9.81,10.18A5.1,5.1,0,0,0,21,27l.16-.17L31,16.61A8.87,8.87,0,0,0,31,4.09Z"
+                        stroke-miterlimit="10"
+                        stroke-width="3"
+                      ></path>
+                    </svg>
+                  </button>
+                  <button class="bar-icon">
+                    <svg id="icon-share" viewBox="0 0 35.57 20.19">
+                      <title>icon-share</title>
+                      <path
+                        d="M34.27,7.87L23.56,0.63C21.83-.54,20.41,0,20.4,1.76S20.4,5,20.4,5h-3C10.28,5,0,8.82,0,18.83a1.42,1.42,0,0,0,2.53.85c4.33-4.55,7.57-4.45,17.53-4.45h0.34s0,1.41,0,3.13,1.42,2.18,3.15,1l10.72-7.23A2.4,2.4,0,0,0,34.27,7.87Z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!------------------------------Footer----------------------------------->
+
+    <footer class="footer-1 resp-d-none">
+      <div class="container">
+        <div class="footer-logo">
+          <img
+            class="mt-4"
+            src="./assets/img/homepage/Petfinder-logo-footer.png"
+            alt=""
+          />
+        </div>
+        <div class="row">
+          <div class="col-lg-2">
+            <p class="text-white fw-bold font-regular mt-3">ABOUT PETFINDER</p>
+            <br />
+            <ul class="list-unstyled text-white font-regular font-size-13">
+              <li>About Petfinder</li>
+              <br />
+              <li>FAQs</li>
+              <br />
+              <li>Partnerships</li>
+              <br />
+              <li>Terms of Services</li>
+              <br />
+              <li>Mobile Site & Apps</li>
+              <br />
+              <li>Petfinder Foundation</li>
+              <br />
+              <li>Put Petfinder on your Site</li>
+              <br />
+              <li>Free Widgets & Graphics</li>
+              <br />
+              <li>Press</li>
+              <br />
+              <li>For Developers</li>
+              <br />
+              <li>Contact Us</li>
+              <br />
+              <li>Don't Sell my Personal</li>
+              <br />
+              <li>Information</li>
+              <br />
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <p class="text-white fw-bold font-regular mt-3">PET ADOPTION</p>
+            <br />
+            <ul class="list-unstyled text-white font-regular font-size-13">
+              <li>Dog Adoption</li>
+              <br />
+              <li>Cat Adoption</li>
+              <br />
+              <li>Other Pet Adoption</li>
+              <br />
+              <li>Search Adoption Organizations</li>
+              <br />
+              <li>Happy Tails Pet Adoption</li>
+              <br />
+              <li>Stories</li>
+              <br />
+              <li>Local Adoption Events</li>
+              <br />
+              <li>Shelters & Rescues</li>
+              <br />
+              <li>Dog Quiz</li>
+              <br />
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <p class="text-white fw-bold font-regular mt-3">PET CARE TOPICS</p>
+            <br />
+            <ul class="list-unstyled text-white font-regular font-size-13">
+              <li>Dog Care</li>
+              <br />
+              <li>Dog Breeds</li>
+              <br />
+              <li>Cat Care</li>
+              <br />
+              <li>Cat Breeds</li>
+              <br />
+              <li>All Pet Care</li>
+              <br />
+              <li>Pet Care Videos</li>
+              <br />
+              <li>Helping Pets</li>
+              <br />
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <p class="text-white fw-bold font-regular mt-3">SITEMAP</p>
+            <br />
+            <p class="text-white fw-bold font-regular">
+              PRIVACY POLICY (UPDATED)
+            </p>
+            <br />
+            <p class="text-white fw-bold font-regular">ABOUT OUR ADS</p>
+            <br />
+            <p class="text-white fw-bold font-regular">
+              SHELTER & RESCUE LOGIN
+            </p>
+            <br />
+            <p class="text-white fw-bold font-regular">
+              SHELTER & RESCUE REGISTRATION
+            </p>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <p class="text-white font-regular">
+              To get the latest on pet adoption and pet care, sign up to hear
+              from us.
+            </p>
+            <button class="footer-button text-white font-regular fw-bold mt-5">
+              SIGN UP
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-icons d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <p class="font-regular font-size-13">
+                ©2021 Petfinder.com All trademarks are owned by Société des
+                Produits Nestlé S.A., or used with permission.
+              </p>
+            </div>
+            <div class="col-lg-2">
+              <div class="social-media-icons">
+                <ul class="list-unstyled d-flex font-size-20">
+                  <li class="margin-right-25">
+                    <a
+                      class="a-unstyled"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                    >
+                      <span
+                        aria-hidden="true"
+                        data-icon="&#xea90;"
+                        class="down-arrow"
+                      ></span>
+                    </a>
+                  </li>
+                  <li class="margin-right-25">
+                    <a
+                      class="a-unstyled"
+                      href="https://twitter.com/?lang=tr"
+                      target="_blank"
+                    >
+                      <span
+                        aria-hidden="true"
+                        data-icon="&#xea96;"
+                        class="down-arrow"
+                      ></span>
+                    </a>
+                  </li>
+                  <li class="margin-right-25">
+                    <a
+                      class="a-unstyled"
+                      href="https://www.instagram.com/?hl=tr"
+                      target="_blank"
+                    >
+                      <span
+                        aria-hidden="true"
+                        data-icon="&#xea92;"
+                        class="down-arrow"
+                      ></span>
+                    </a>
+                  </li>
+                  <li class="margin-right-25">
+                    <a
+                      class="a-unstyled"
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                    >
+                      <span
+                        aria-hidden="true"
+                        data-icon="&#xea9d;"
+                        class="down-arrow"
+                      ></span>
+                    </a>
+                  </li>
+                  <li class="margin-right-25">
+                    <a
+                      class="a-unstyled"
+                      href="https://tr.pinterest.com/"
+                      target="_blank"
+                    >
+                      <span
+                        aria-hidden="true"
+                        data-icon="&#xe901;"
+                        class="down-arrow"
+                      ></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Responsible Footer 2 -->
+
+    <footer class="footer-2">
+      <div class="container">
+        <div class="footer-logo d-flex justify-content-center">
+          <img
+            class="mt-4"
+            src="./assets/img/homepage/Petfinder-logo-footer.png"
+            alt=""
+          />
+        </div>
+        <p class="text-white font-regular text-center mt-4">
+          To get the latest on pet adoption and pet care, sign up to hear from
+          us. <br />
+          <button
+            class="footer-button text-white font-regular fw-bold mt-3 mb-4"
+          >
+            SIGN UP
+          </button>
+        </p>
+
+        <div class="mb-5 p-2">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <hr />
+              <div class="d-flex justify-content-start">
+                <div class="dropdown">
+                  <button
+                    class="
+                      dropdown-toggle
+                      filter-btn
+                      fw-bolder
+                      bg-transparent
+                      text-white
+                    "
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <span class="text-white fw-bolder">ABOUT PETFINDER</span>
+                  </button>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#">About Petfinder</a>
+                    <a class="dropdown-item" href="#">FAQs</a>
+                    <a class="dropdown-item" href="#">Partnerships</a>
+                    <a class="dropdown-item" href="#">Terms of Services</a>
+                    <a class="dropdown-item" href="#">Mobile Site & Apps</a>
+                    <a class="dropdown-item" href="#">Petfinder Foundation</a>
+                    <a class="dropdown-item" href="#"
+                      >Put Petfinder on your Site</a
+                    >
+                    <a class="dropdown-item" href="#"
+                      >Free Widgets & Graphics</a
+                    >
+                    <a class="dropdown-item" href="#">Petfinder Foundation</a>
+                    <a class="dropdown-item" href="#">Press</a>
+                    <a class="dropdown-item" href="#">For Developers</a>
+                    <a class="dropdown-item" href="#">Contact Us</a>
+                    <a class="dropdown-item" href="#">Don't Sell my Personal</a>
+                    <a class="dropdown-item" href="#">Information</a>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex justify-content-start">
+                <div class="dropdown">
+                  <button
+                    class="
+                      dropdown-toggle
+                      filter-btn
+                      fw-bolder
+                      bg-transparent
+                      text-white
+                    "
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <span class="text-white fw-bolder">PET ADOPTION</span>
+                  </button>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#">Dog Adoption</a>
+                    <a class="dropdown-item" href="#">Cat Adoption</a>
+                    <a class="dropdown-item" href="#"
+                      >Search Adoption Organizations</a
+                    >
+                    <a class="dropdown-item" href="#"
+                      >Happy Tails Pet Adoption</a
+                    >
+                    <a class="dropdown-item" href="#">Stories</a>
+                    <a class="dropdown-item" href="#">Local Adoption Events</a>
+                    <a class="dropdown-item" href="#">Shelters & Rescues</a>
+                    <a class="dropdown-item" href="#">Dog Quiz</a>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex justify-content-start">
+                <div class="dropdown">
+                  <button
+                    class="
+                      dropdown-toggle
+                      filter-btn
+                      fw-bolder
+                      bg-transparent
+                      text-white
+                    "
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <span class="text-white fw-bolder">PET CARE TOPICS</span>
+                  </button>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#">Dog Care</a>
+                    <a class="dropdown-item" href="#">Dog Breeds</a>
+                    <a class="dropdown-item" href="#">>Cat Care</a>
+                    <a class="dropdown-item" href="#">Cat Breeds</a>
+                    <a class="dropdown-item" href="#">All Pet Care</a>
+                    <a class="dropdown-item" href="#">Pet Care Videos</a>
+                    <a class="dropdown-item" href="#">Helping Pets</a>
+                    <a class="dropdown-item" href="#">Dog Quiz</a>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex justify-content-start">
+                <div class="dropdown">
+                  <button
+                    class="filter-btn fw-bolder bg-transparent text-white"
+                    type="button"
+                  >
+                    <span class="text-white fw-bolder">SITEMAP</span>
+                  </button>
+                </div>
+              </div>
+              <hr />
+            </div>
+            <div class="col-md-6 col-12">
+              <hr />
+              <div class="d-flex justify-content-start">
+                <div class="dropdown">
+                  <button
+                    class="filter-btn fw-bolder bg-transparent text-white"
+                    type="button"
+                  >
+                    <span class="text-white fw-bolder"
+                      >PRIVACY POLICY (UPDATED)</span
+                    >
+                  </button>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex justify-content-start">
+                <div class="dropdown">
+                  <button
+                    class="filter-btn fw-bolder bg-transparent text-white"
+                    type="button"
+                  >
+                    <span class="text-white fw-bolder">ABOUT OUR ADS</span>
+                  </button>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex justify-content-start">
+                <div class="dropdown">
+                  <button
+                    class="filter-btn fw-bolder bg-transparent text-white"
+                    type="button"
+                  >
+                    <span class="text-white fw-bolder"
+                      >SHELTER & RESCUE LOGIN</span
+                    >
+                  </button>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex justify-content-start">
+                <div class="dropdown">
+                  <button
+                    class="filter-btn fw-bolder bg-transparent text-white"
+                    type="button"
+                  >
+                    <span class="text-white fw-bolder"
+                      >SHELTER & RESCUE REGISTRATION</span
+                    >
+                  </button>
+                </div>
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-icons d-flex">
+        <div class="container">
+          <p class="font-regular font-size-13 text-center mt-3">
+            ©2021 Petfinder.com <br /><br />
+            All trademarks are owned by Société des Produits Nestlé S.A., or
+            used with permission.
+          </p>
+          <div class="social-media-icons">
+            <ul
+              class="
+                list-unstyled
+                d-flex
+                justify-content-center
+                font-size-20
+                mt-3
+              "
+            >
+              <li class="margin-right-25">
+                <a
+                  class="a-unstyled"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                >
+                  <span
+                    aria-hidden="true"
+                    data-icon="&#xea90;"
+                    class="down-arrow"
+                  ></span>
+                </a>
+              </li>
+              <li class="margin-right-25">
+                <a
+                  class="a-unstyled"
+                  href="https://twitter.com/?lang=tr"
+                  target="_blank"
+                >
+                  <span
+                    aria-hidden="true"
+                    data-icon="&#xea96;"
+                    class="down-arrow"
+                  ></span>
+                </a>
+              </li>
+              <li class="margin-right-25">
+                <a
+                  class="a-unstyled"
+                  href="https://www.instagram.com/?hl=tr"
+                  target="_blank"
+                >
+                  <span
+                    aria-hidden="true"
+                    data-icon="&#xea92;"
+                    class="down-arrow"
+                  ></span>
+                </a>
+              </li>
+              <li class="margin-right-25">
+                <a
+                  class="a-unstyled"
+                  href="https://www.youtube.com/"
+                  target="_blank"
+                >
+                  <span
+                    aria-hidden="true"
+                    data-icon="&#xea9d;"
+                    class="down-arrow"
+                  ></span>
+                </a>
+              </li>
+              <li class="margin-right-25">
+                <a
+                  class="a-unstyled"
+                  href="https://tr.pinterest.com/"
+                  target="_blank"
+                >
+                  <span
+                    aria-hidden="true"
+                    data-icon="&#xe901;"
+                    class="down-arrow"
+                  ></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Responsible Footer 2 -->
+
+    <!-- Responsible Footer 3 -->
+    <footer class="footer-3 p-3">
+      <div class="container">
+        <div class="footer-logo">
+          <img
+            class="mt-4"
+            src="./assets/img/homepage/Petfinder-logo-footer.png"
+            alt=""
+          />
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <hr />
+            <div class="d-flex justify-content-start">
+              <div class="dropdown">
+                <button
+                  class="filter-btn fw-bolder bg-transparent text-white"
+                  type="button"
+                >
+                  <span class="text-white fw-bolder"
+                    >PRIVACY POLICY (UPDATED)</span
+                  >
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-start">
+              <div class="dropdown">
+                <button
+                  class="filter-btn fw-bolder bg-transparent text-white"
+                  type="button"
+                >
+                  <span class="text-white fw-bolder">ABOUT OUR ADS</span>
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-start">
+              <div class="dropdown">
+                <button
+                  class="filter-btn fw-bolder bg-transparent text-white"
+                  type="button"
+                >
+                  <span class="text-white fw-bolder"
+                    >SHELTER & RESCUE LOGIN</span
+                  >
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-start">
+              <div class="dropdown">
+                <button
+                  class="filter-btn fw-bolder bg-transparent text-white"
+                  type="button"
+                >
+                  <span class="text-white fw-bolder"
+                    >SHELTER & RESCUE REGISTRATION</span
+                  >
+                </button>
+              </div>
+            </div>
+            <hr />
+          </div>
+          <div class="col-md-4">
+            <hr />
+            <div class="d-flex justify-content-start">
+              <div class="dropdown">
+                <button
+                  class="
+                    dropdown-toggle
+                    filter-btn
+                    fw-bolder
+                    bg-transparent
+                    text-white
+                  "
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <span class="text-white fw-bolder">ABOUT PETFINDER</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">About Petfinder</a>
+                  <a class="dropdown-item" href="#">FAQs</a>
+                  <a class="dropdown-item" href="#">Partnerships</a>
+                  <a class="dropdown-item" href="#">Terms of Services</a>
+                  <a class="dropdown-item" href="#">Mobile Site & Apps</a>
+                  <a class="dropdown-item" href="#">Petfinder Foundation</a>
+                  <a class="dropdown-item" href="#"
+                    >Put Petfinder on your Site</a
+                  >
+                  <a class="dropdown-item" href="#">Free Widgets & Graphics</a>
+                  <a class="dropdown-item" href="#">Petfinder Foundation</a>
+                  <a class="dropdown-item" href="#">Press</a>
+                  <a class="dropdown-item" href="#">For Developers</a>
+                  <a class="dropdown-item" href="#">Contact Us</a>
+                  <a class="dropdown-item" href="#">Don't Sell my Personal</a>
+                  <a class="dropdown-item" href="#">Information</a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-start">
+              <div class="dropdown">
+                <button
+                  class="
+                    dropdown-toggle
+                    filter-btn
+                    fw-bolder
+                    bg-transparent
+                    text-white
+                  "
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <span class="text-white fw-bolder">PET ADOPTION</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Dog Adoption</a>
+                  <a class="dropdown-item" href="#">Cat Adoption</a>
+                  <a class="dropdown-item" href="#"
+                    >Search Adoption Organizations</a
+                  >
+                  <a class="dropdown-item" href="#">Happy Tails Pet Adoption</a>
+                  <a class="dropdown-item" href="#">Stories</a>
+                  <a class="dropdown-item" href="#">Local Adoption Events</a>
+                  <a class="dropdown-item" href="#">Shelters & Rescues</a>
+                  <a class="dropdown-item" href="#">Dog Quiz</a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-start">
+              <div class="dropdown">
+                <button
+                  class="
+                    dropdown-toggle
+                    filter-btn
+                    fw-bolder
+                    bg-transparent
+                    text-white
+                  "
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <span class="text-white fw-bolder">PET CARE TOPICS</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Dog Care</a>
+                  <a class="dropdown-item" href="#">Dog Breeds</a>
+                  <a class="dropdown-item" href="#">>Cat Care</a>
+                  <a class="dropdown-item" href="#">Cat Breeds</a>
+                  <a class="dropdown-item" href="#">All Pet Care</a>
+                  <a class="dropdown-item" href="#">Pet Care Videos</a>
+                  <a class="dropdown-item" href="#">Helping Pets</a>
+                  <a class="dropdown-item" href="#">Dog Quiz</a>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-start">
+              <div class="dropdown">
+                <button
+                  class="filter-btn fw-bolder bg-transparent text-white"
+                  type="button"
+                >
+                  <span class="text-white fw-bolder">SITEMAP</span>
+                </button>
+              </div>
+            </div>
+            <hr />
+          </div>
+          <div class="col-md-4 d-flex align-items-center">
+            <p class="text-white font-regular">
+              To get the latest on pet adoption and pet care, sign up to hear
+              from us. <br />
+              <button
+                class="footer-button text-white font-regular fw-bold mt-3 mb-4"
+              >
+                SIGN UP
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Responsible Footer 3 -->
+
+    <!--------------------------------End of Footer-------------------------------------->
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="./assets/js/petcare-slider.js"></script>
+</html>

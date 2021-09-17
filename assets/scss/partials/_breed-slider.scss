@@ -1,0 +1,44 @@
+.flickity-page-dots {
+  display: none !important;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  display: none !important;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  display: none !important;
+}
+
+main {
+  background-color: #efeef1;
+  .breed-slider {
+    height: 330px;
+    background-color: white;
+    .container {
+      .carousel {
+        .carousel-cell {
+          .slider-card {
+            width: 310px;
+            height: 206px;
+            margin-right: 20px;
+            a {
+              text-decoration: none;
+              .card-media {
+                img {
+                  width: 310px;
+                  border-radius: 10px 10px 0 0;
+                }
+              }
+              .slider-card-footer {
+                width: 310px;
+                height: 50px;
+                border-radius: 0 0 10px 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

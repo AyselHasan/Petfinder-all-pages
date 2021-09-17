@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adopting Status</title>
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap/css/bootstrap-grid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap/css/bootstrap-grid.min.css"
+    />
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="./assets/scss/style.css" />
+    <link rel="stylesheet" href="./assets/scss/reset.css" />
+  </head>
+  <body>
+    <!----------------------------- Navbar --------------------------------->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                class="navbar-logo cursor-pointer"
+                src="./assets/img/homepage/Petfinder_logo.png"
+                alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li
+                  class="nav-item font-regular nav-hover fw-bolder font-size-13"
+                >
+                  FIND A PET<span
+                    aria-hidden="true"
+                    data-icon="&#xe905;"
+                    class="down-arrow"
+                  ></span>
+                </li>
+                <li
+                  class="
+                    nav-item
+                    font-regular
+                    nav-hover
+                    fw-bolder
+                    font-size-13
+                    margin-left-15
+                  "
+                >
+                  BREEDS<span
+                    aria-hidden="true"
+                    data-icon="&#xe905;"
+                    class="down-arrow"
+                  ></span>
+                </li>
+                <li
+                  class="
+                    nav-item
+                    margin-left-15
+                    font-regular
+                    nav-hover
+                    fw-bolder
+                    font-size-13
+                  "
+                >
+                  RECOURCES<span
+                    aria-hidden="true"
+                    data-icon="&#xe905;"
+                    class="down-arrow"
+                  ></span>
+                </li>
+              </ul>
+              <span class="navbar-text d-flex font-regular">
+                <span
+                  aria-hidden="true"
+                  data-icon="&#xe986;"
+                  class="down-arrow margin-left-2r font-size-20 font-color-gray"
+                ></span>
+                <span
+                  aria-hidden="true"
+                  data-icon="&#xe9da;"
+                  class="down-arrow margin-left-2r font-size-20 font-color-gray"
+                ></span>
+                <ul class="list-unstyled d-flex">
+                  <li
+                    class="
+                      margin-left-15
+                      font-size-22
+                      nav-hover
+                      fw-bolder
+                      font-color-gray
+                      margin-left-2r
+                    "
+                  >
+                    Sign up
+                  </li>
+                  <li
+                    class="
+                      margin-left-15
+                      font-size-22
+                      nav-hover
+                      fw-bolder
+                      font-color-gray
+                    "
+                  >
+                    Login
+                  </li>
+                </ul>
+              </span>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!------------------------- End of  Navbar ------------------------------>
+
+    <main>
+      <div class="adoption-status mb-5">
+        <div class="container p-4">
+          <p class="font-size-35 font-color-gray fw-bolder">My Petfinder</p>
+          <div class="profile-menu mt-4">
+            <ul class="list-unstyled d-flex">
+              <li>
+                <a href="./about-me.html">
+                  <button class="menu-button">About Me</button></a
+                >
+              </li>
+              <li>
+                <a href="./account-settings.html"
+                  ><button class="menu-button">Account Settings</button></a
+                >
+              </li>
+              <li>
+                <a href="./adoption-status.html"
+                  ><button class="menu-button">Adopting Status</button></a
+                >
+              </li>
+            </ul>
+          </div>
+          <hr />
+          <div class="adopted-pet-card p-4">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="adopted-pet-img">
+                  <img src="./assets/img/dogcare/slider-1.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="adopted-pet-details">
+                  <div>
+                    <p class="vio-font-color fw-bolder font-size-30 mt-2">
+                      Name
+                    </p>
+                    <p class="font-size-20 fw-bolder font-color-gray mt-3">
+                      Age · Gender · Size
+                    </p>
+                  </div>
+                </div>
+                <div class="pet-status mt-5">
+                  <button class="status-button fw-bolder deactive-status">
+                    Accepted
+                  </button>
+                  <button class="status-button fw-bolder active-status">
+                    Rejected
+                  </button>
+                  <button class="status-button fw-bolder deactive-status">
+                    On hold
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!------------------------------Footer----------------------------------->
+
+    <footer>
+      <div class="container">
+        <div class="footer-logo">
+          <img
+            class="mt-4"
+            src="./assets/img/homepage/Petfinder-logo-footer.png"
+            alt=""
+          />
+        </div>
+        <div class="row">
+          <div class="col-lg-2">
+            <p class="text-white fw-bold font-regular mt-3">ABOUT PETFINDER</p>
+            <br />
+            <ul class="list-unstyled text-white font-regular font-size-13">
+              <li>About Petfinder</li>
+              <br />
+              <li>FAQs</li>
+              <br />
+              <li>Partnerships</li>
+              <br />
+              <li>Terms of Services</li>
+              <br />
+              <li>Mobile Site & Apps</li>
+              <br />
+              <li>Petfinder Foundation</li>
+              <br />
+              <li>Put Petfinder on your Site</li>
+              <br />
+              <li>Free Widgets & Graphics</li>
+              <br />
+              <li>Press</li>
+              <br />
+              <li>For Developers</li>
+              <br />
+              <li>Contact Us</li>
+              <br />
+              <li>Don't Sell my Personal</li>
+              <br />
+              <li>Information</li>
+              <br />
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <p class="text-white fw-bold font-regular mt-3">PET ADOPTION</p>
+            <br />
+            <ul class="list-unstyled text-white font-regular font-size-13">
+              <li>Dog Adoption</li>
+              <br />
+              <li>Cat Adoption</li>
+              <br />
+              <li>Other Pet Adoption</li>
+              <br />
+              <li>Search Adoption Organizations</li>
+              <br />
+              <li>Happy Tails Pet Adoption</li>
+              <br />
+              <li>Stories</li>
+              <br />
+              <li>Local Adoption Events</li>
+              <br />
+              <li>Shelters & Rescues</li>
+              <br />
+              <li>Dog Quiz</li>
+              <br />
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <p class="text-white fw-bold font-regular mt-3">PET CARE TOPICS</p>
+            <br />
+            <ul class="list-unstyled text-white font-regular font-size-13">
+              <li>Dog Care</li>
+              <br />
+              <li>Dog Breeds</li>
+              <br />
+              <li>Cat Care</li>
+              <br />
+              <li>Cat Breeds</li>
+              <br />
+              <li>All Pet Care</li>
+              <br />
+              <li>Pet Care Videos</li>
+              <br />
+              <li>Helping Pets</li>
+              <br />
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <p class="text-white fw-bold font-regular mt-3">SITEMAP</p>
+            <br />
+            <p class="text-white fw-bold font-regular">
+              PRIVACY POLICY (UPDATED)
+            </p>
+            <br />
+            <p class="text-white fw-bold font-regular">ABOUT OUR ADS</p>
+            <br />
+            <p class="text-white fw-bold font-regular">
+              SHELTER & RESCUE LOGIN
+            </p>
+            <br />
+            <p class="text-white fw-bold font-regular">
+              SHELTER & RESCUE REGISTRATION
+            </p>
+          </div>
+          <div class="col-lg-4 mt-3">
+            <p class="text-white font-regular">
+              To get the latest on pet adoption and pet care, sign up to hear
+              from us.
+            </p>
+            <button class="footer-button text-white font-regular fw-bold mt-5">
+              SIGN UP
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-icons d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <p class="font-regular font-size-13">
+                ©2021 Petfinder.com All trademarks are owned by Société des
+                Produits Nestlé S.A., or used with permission.
+              </p>
+            </div>
+            <div class="col-lg-2">
+              <div class="social-media-icons">
+                <ul class="list-unstyled d-flex font-size-20">
+                  <li class="margin-right-25">
+                    <a
+                      class="a-unstyled"
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                    >
+                      <span
+                        aria-hidden="true"
+                        data-icon="&#xea90;"
+                        class="down-arrow"
+                      ></span>
+                    </a>
+                  </li>
+                  <li class="margin-right-25">
+                    <a
+                      class="a-unstyled"
+                      href="https://twitter.com/?lang=tr"
+                      target="_blank"
+                    >
+                      <span
+                        aria-hidden="true"
+                        data-icon="&#xea96;"
+                        class="down-arrow"
+                      ></span>
+                    </a>
+                  </li>
+                  <li class="margin-right-25">
+                    <a
+                      class="a-unstyled"
+                      href="https://www.instagram.com/?hl=tr"
+                      target="_blank"
+                    >
+                      <span
+                        aria-hidden="true"
+                        data-icon="&#xea92;"
+                        class="down-arrow"
+                      ></span>
+                    </a>
+                  </li>
+                  <li class="margin-right-25">
+                    <a
+                      class="a-unstyled"
+                      href="https://www.youtube.com/"
+                      target="_blank"
+                    >
+                      <span
+                        aria-hidden="true"
+                        data-icon="&#xea9d;"
+                        class="down-arrow"
+                      ></span>
+                    </a>
+                  </li>
+                  <li class="margin-right-25">
+                    <a
+                      class="a-unstyled"
+                      href="https://tr.pinterest.com/"
+                      target="_blank"
+                    >
+                      <span
+                        aria-hidden="true"
+                        data-icon="&#xe901;"
+                        class="down-arrow"
+                      ></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--------------------------------End of Footer-------------------------------------->
+  </body>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./assets/js/petcare-slider.js"></script>
+</html>

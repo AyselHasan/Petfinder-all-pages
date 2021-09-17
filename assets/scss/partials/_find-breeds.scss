@@ -1,0 +1,69 @@
+main {
+  font-family: "myFirstFont";
+  .find-breeds {
+    min-width: 100%;
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .search-area {
+      width: 520px;
+      height: 280px;
+      border-radius: 5px;
+      background-color: rgb(199, 198, 198);
+      opacity: 0.7;
+      padding: 0 50px;
+      .search-heading {
+        opacity: 1 !important;
+        p {
+          font-size: 30px;
+          color: #1a012e;
+          text-shadow: 0 1px 4px gray;
+        }
+      }
+      .input-box {
+        width: 98%;
+        height: 50px;
+        border-radius: 8px;
+        background-color: white;
+        opacity: 1;
+        z-index: 999999999999999999;
+        box-shadow: 0px 0px 20px 2px #888888;
+        .container {
+          .row {
+            .col-lg-10 {
+              #search-bar {
+                border: none;
+                &::placeholder {
+                  color: #6504b5;
+                  font-weight: 400;
+                  font-size: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .breed-buttons {
+        .container {
+          .row {
+            .col-lg-6 {
+              .search-btn {
+                width: 200px;
+                height: 40px;
+                border-radius: 20px;
+                border: 2px solid #59049f;
+                color: #59049f;
+                font-weight: bold;
+                background-image: linear-gradient(#dfdfdf, white);
+                &:hover {
+                  background-image: linear-gradient(#59049f, #59049f);
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
